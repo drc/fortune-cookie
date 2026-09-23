@@ -21,8 +21,8 @@ importers:
         specifier: ^1.0.8
         version: 1.0.8
       '@point-of-sale/receipt-printer-encoder':
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^4.0.1
+        version: 4.0.1
       '@scalar/hono-api-reference':
         specifier: ^0.11.16
         version: 0.11.16(hono@4.13.4)
@@ -814,8 +814,8 @@ packages:
   '@point-of-sale/codepage-encoder@3.0.2':
     resolution: {integrity: sha512-Sx+0sE/XgPtMUNKScHpwTIZiHNd/+Mg0udACQJVwPsxH9kUAgIkRi9kRlmWBMCruwOJadjKLyKs8MO8Bh+VS/A==}
 
-  '@point-of-sale/receipt-printer-encoder@3.0.3':
-    resolution: {integrity: sha512-2+xgs6rwNfrkEw9g4LkgQS6k29qnmo3+hOV7Z2xHNBFn8h4FrwquZwL/dBOTwgmQ9sWEYBkj/bQkg9Rz6lL99w==}
+  '@point-of-sale/receipt-printer-encoder@4.0.1':
+    resolution: {integrity: sha512-ALLSmZl0uEH52r9hPffjdxzBBbbjQWPryjXmB0Eb2wsiVE3c2nSvOHEZPNLfgLLSaVAY4F9t1K3ZdI4altPPbQ==}
 
   '@scalar/asyncapi-upgrader@0.1.7':
     resolution: {integrity: sha512-RU3CrNV77hWiZ9Ik0GJHDf/bEg8C0iF9Rg5b6GDJz3F9Y7ZyBJcgqq++do9GUzPTKzftfOORfQ9180s09XQp7Q==}
@@ -2363,7 +2363,7 @@ snapshots:
 
   '@point-of-sale/codepage-encoder@3.0.2': {}
 
-  '@point-of-sale/receipt-printer-encoder@3.0.3':
+  '@point-of-sale/receipt-printer-encoder@4.0.1':
     dependencies:
       '@canvas/image-data': 1.1.0
       '@point-of-sale/codepage-encoder': 3.0.2
