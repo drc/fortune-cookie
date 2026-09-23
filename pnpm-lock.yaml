@@ -13,10 +13,10 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: ^2.1.1
-        version: 2.1.1(hono@4.13.4)
+        version: 2.1.1(hono@4.13.5)
       '@hono/zod-openapi':
         specifier: ^1.6.1
-        version: 1.6.1(hono@4.13.4)(zod@4.4.3)
+        version: 1.6.1(hono@4.13.5)(zod@4.4.3)
       '@napi-rs/canvas':
         specifier: ^1.0.8
         version: 1.0.8
@@ -25,16 +25,16 @@ importers:
         version: 3.0.3
       '@scalar/hono-api-reference':
         specifier: ^0.11.16
-        version: 0.11.16(hono@4.13.4)
+        version: 0.11.16(hono@4.13.5)
       '@scalar/openapi-to-markdown':
         specifier: ^0.5.42
         version: 0.5.42(tailwindcss@4.3.3)(typescript@7.0.2)
       hono:
-        specifier: ^4.13.4
-        version: 4.13.4
+        specifier: ^4.13.5
+        version: 4.13.5
       hono-pino:
         specifier: ^0.10.3
-        version: 0.10.3(hono@4.13.4)(pino@10.3.1)
+        version: 0.10.3(hono@4.13.5)(pino@10.3.1)
       http-status-codes:
         specifier: ^2.3.0
         version: 2.3.0
@@ -1349,8 +1349,8 @@ packages:
       hono: '>=4.0.0'
       pino: '>=7.1.0'
 
-  hono@4.13.4:
-    resolution: {integrity: sha512-AGEwKIyRMHRv1t8Wjwa3LHxQ61X5CqrdFT+4BRNTpqS5aJNnpl5WLjADb7vFlJzI/8uK7T5QLVApCMQKNa3LgQ==}
+  hono@4.13.5:
+    resolution: {integrity: sha512-O6+/eCYRkzzzy0rPWwKLiGBR1nFuUPZynnwjxN1MBA62NNqbT0wQEzQyK2gSO5yDIDB336sXQleAhOHrzlYyKw==}
     engines: {node: '>=16.9.0'}
 
   html-minifier-terser@7.2.0:
@@ -2046,21 +2046,21 @@ snapshots:
       '@tanstack/vue-virtual': 3.13.36(vue@3.5.41(typescript@7.0.2))
       vue: 3.5.41(typescript@7.0.2)
 
-  '@hono/node-server@2.1.1(hono@4.13.4)':
+  '@hono/node-server@2.1.1(hono@4.13.5)':
     dependencies:
-      hono: 4.13.4
+      hono: 4.13.5
 
-  '@hono/zod-openapi@1.6.1(hono@4.13.4)(zod@4.4.3)':
+  '@hono/zod-openapi@1.6.1(hono@4.13.5)(zod@4.4.3)':
     dependencies:
       '@asteasolutions/zod-to-openapi': 9.1.0(zod@4.4.3)
-      '@hono/zod-validator': 0.9.0(hono@4.13.4)(zod@4.4.3)
-      hono: 4.13.4
+      '@hono/zod-validator': 0.9.0(hono@4.13.5)(zod@4.4.3)
+      hono: 4.13.5
       openapi3-ts: 4.6.1
       zod: 4.4.3
 
-  '@hono/zod-validator@0.9.0(hono@4.13.4)(zod@4.4.3)':
+  '@hono/zod-validator@0.9.0(hono@4.13.5)(zod@4.4.3)':
     dependencies:
-      hono: 4.13.4
+      hono: 4.13.5
       zod: 4.4.3
 
   '@img/colour@1.1.0': {}
@@ -2425,10 +2425,10 @@ snapshots:
 
   '@scalar/helpers@0.11.1': {}
 
-  '@scalar/hono-api-reference@0.11.16(hono@4.13.4)':
+  '@scalar/hono-api-reference@0.11.16(hono@4.13.5)':
     dependencies:
       '@scalar/client-side-rendering': 0.3.9
-      hono: 4.13.4
+      hono: 4.13.5
 
   '@scalar/icons@0.7.6(typescript@7.0.2)':
     dependencies:
@@ -3017,13 +3017,13 @@ snapshots:
 
   highlight.js@11.12.0: {}
 
-  hono-pino@0.10.3(hono@4.13.4)(pino@10.3.1):
+  hono-pino@0.10.3(hono@4.13.5)(pino@10.3.1):
     dependencies:
       defu: 6.1.7
-      hono: 4.13.4
+      hono: 4.13.5
       pino: 10.3.1
 
-  hono@4.13.4: {}
+  hono@4.13.5: {}
 
   html-minifier-terser@7.2.0:
     dependencies:
