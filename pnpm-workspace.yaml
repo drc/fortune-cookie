@@ -5,3 +5,4 @@ allowBuilds:
   vue-demi: true
 overrides:
   ts-deepmerge: '>=8.0.0'
+  undici: ^7.29.0
