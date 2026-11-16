@@ -7,6 +7,7 @@ export const envSchema = z.object({
   PRINTER_HOST: z.string().default('10.0.1.128'),
   PRINTER_OFFLINE: z.enum(['true', 'false']).default('false'),
   CLIP_API_SECRET: z.string().optional(),
+  ORB_URL: z.url().default('https://orb.ponder.guru/'),
 });
 
 export type Env = z.infer<typeof envSchema>;
