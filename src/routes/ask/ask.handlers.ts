@@ -1,6 +1,7 @@
 import { StatusCodes } from 'http-status-codes/build/cjs/status-codes';
 
 import app from '@/app';
+import env from '@/env';
 import { encoder, print } from '@/lib/printer';
 import type { AppRouteHander } from '@/lib/types';
 
@@ -15,7 +16,7 @@ export const printAFortune: AppRouteHander<PrintAFortuneRoute> = (c) => {
 
 export const askAndPrint: AppRouteHander<AskAndPrintRoute> = async (c) => {
   const { question } = c.req.valid('json'),
-    orb_response = await fetch('https://orb.ponder.guru/', {
+    orb_response = await fetch(env.ORB_URL, {
       body: JSON.stringify({ question }),
       headers: { 'Content-Type': 'application/json' },
       method: 'POST',
